@@ -5,6 +5,6 @@ def position_taken?(board, index)
   elsif board[index] != " "
      !true
   else
-    puts "true"
+    !false
   end
 end
